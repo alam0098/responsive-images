@@ -1,0 +1,67 @@
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Droid+Serif';
+
+
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+/*************************** 
+DEFAULTS - MOBILE FIRST 
+***************************/
+
+h1{
+    font: bold 4.236rem 'Droid Serif', serif;
+    text-align: center;
+    margin: 1rem 0;
+}
+h2{
+    font: bold 2.618rem 'Droid Serif', serif;
+}
+h3{
+	text-align: center;
+	padding: 0.5rem 0 0 0;
+}
+li, p, a{
+    font: bold 1.618rem 'Droid Sans', sans-serif;
+}
+main {
+	text-align: center;
+	width: 100%;
+	font-size: 0px;
+	margin: 0 auto;
+}
+main picture{
+	display: inline-block;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-size: 1rem;
+	box-shadow: 0 0 5px #ddd;
+	margin: 0.5rem 0;
+}
+main picture img{
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 0rem;
+}
+
+
+@media screen and (min-width:700px){
+
+main{
+	text-align: left;
+	width: 90%;
+	margin: 0 auto;
+}
+main picture{
+	width: 33.33%;
+}   
+}
+@media screen and (min-width: 1500px){
+main picture{
+	width: 25%;
+}
+}
